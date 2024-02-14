@@ -1,0 +1,88 @@
+Part 1: Directions on getting started and using Git, Webstorm and Github
+
+ 1. Setting up Git
+  
+  1. Downloading and Installing Git: 
+  Step 1: Head to Git's official website: https://git-scm.com/downloads
+  Step 2: Install the appropriate verison for your computer
+  Step 3: Follow the list of instructions provided on the site
+
+ 2. Configuring Git:
+  Step 4: Open a command prompt
+  Step 5: Create your username and email address that you want associated with your account using the below prompt of code (lines 12 and 13)
+  git config --global user.name "Your Name"
+  git config --global user.email "your_email@example.com"
+
+  2. Setting up Github
+    
+1. Signing up for GitHub:
+  Step 1: Go to GitHub's official website: https://github.com/
+  Step 2: Sign up for an account on the site if you don't already have one
+  Step 3: Once you're logged in, click on the "+" icon in the top right corner and select "New Repository"
+  Step 4: With that "New Repository", fill in the repository name, description, and alter any more additional settings if needed
+  Step 5: Click "Create Repository" to official create your new repository
+
+  3. Cloning the Repository in WebStorm:
+    
+1. Opening WebStorm:
+   Step 1: Launch WebStorm IDE on your computer.
+     
+2. Clone Repository:
+Step 1: Go to "VCS" > "Get from Version Control" > "Git"
+Step 2: Paste the URL of your GitHub repository in the "URL" field
+Step 3: Select the directory where you want to clone the repository
+Step 4: Click "Clone" to clone the repository to your local machine
+
+  4. Making Changes and Committing:
+
+1. Open Project:
+Step 1: Open the cloned project in WebStorm.
+  
+2. Make Changes:
+Step 1: Modify files in your project as needed.
+  
+3. Commit Changes:
+Step 1: Go to "VCS" > "Commit" or press Ctrl + K.
+Step 2: Select the files you want to commit.
+Step 3: Write a commit message describing your changes.
+Step 4: Click "Commit" to save the changes to your local repository.
+
+5. Pushing Changes to GitHub:
+
+1. Push Changes:
+Step 1: After committing changes, go to "VCS" > "Git" > "Push".
+Step 2: If prompted, enter your GitHub username and password.
+Step 3: Click "OK" to push your changes to the remote repository on GitHub.
+
+6. Pulling Changes from GitHub:
+
+1. Pull Changes:
+Step 1: To fetch and merge changes made by others, go to "VCS" > "Git" > "Pull".
+Step 2: Select the branch you want to pull changes from.
+Step 3: Click "Pull" to update your local repository with the changes from GitHub.
+
+7. Branching and Merging:
+
+1.Creating a New Branch:
+Step 1: Go to "VCS" > "Git" > "Branches" > "New Branch".
+Step 2: Enter a name for your new branch and click "Create".
+
+2. Switching Branches:
+Step 1: To switch between branches, go to "VCS" > "Git" > "Branches" and select the desired branch.
+
+3. Merging Branches:
+Step 1: Go to "VCS" > "Git" > "Merge Changes".
+Step 2: Select the branch you want to merge into the current branch.
+Step 3: Resolve any merge conflicts if necessary and commit the merge.
+  
+References List:
+https://www.atlassian.com/git
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+https://devmountain.com/blog/what-is-github-and-how-do-you-use-it/
+https://www.jetbrains.com/help/webstorm/getting-started-with-webstorm.html
+  
+    
+    
+
+
+  
